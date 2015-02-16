@@ -20,6 +20,7 @@ namespace WindowsFormsApplication6
         private void Test_button_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Hello, " + DateTime.Now.ToString());
+            MessageBox.Show("추가 메세지");
         }
     }
 }
